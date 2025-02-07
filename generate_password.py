@@ -25,7 +25,8 @@ if st.button("Generate Password"):
     st.session_state["password"] = password
 
 if "password" in st.session_state and st.session_state["password"]:
-    st.code(f"{st.session_state['password']}", language="planetext")
+    # st.code(f"{st.session_state['password']}", language="planetext")
+    st.markdown(f"## {st.session_state['password']}")
 
     if st.button("Clear Password"):
         st.session_state["password"] = ""
