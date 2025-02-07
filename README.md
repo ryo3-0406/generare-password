@@ -24,8 +24,9 @@ streamlit run app.py
 ## 📜 Requirements
 The necessary libraries are listed in `requirements.txt`. Ensure you have Python installed before proceeding.
 
-## 📤 Deployment
-This application can be deployed on [Streamlit Community Cloud](https://share.streamlit.io/) or any other Streamlit-compatible hosting service.
+## 🌐 Live Demo
+The application is publicly available at:  
+🔗 [Password Generator](https://generare-password.streamlit.app)
 
 ## 🛡️ Security Considerations
 - The generated password is stored in `st.session_state` and will persist until cleared.
