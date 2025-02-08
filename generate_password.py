@@ -7,7 +7,7 @@ def generate_password(length, use_uppercase, use_symbols):
     if use_uppercase:
         characters += string.ascii_uppercase
     if use_symbols:
-        characters += "!#$%&.@+-_"
+        characters += "!#$%&@+-_"
 
     return ''.join(secrets.choice(characters) for _ in range(length))
 
